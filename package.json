@@ -1,6 +1,6 @@
 {
   "name": "cyclical-object-hash",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Deterministically hash a cyclical object with blake2b",
   "main": "index.js",
   "scripts": {

@@ -2,7 +2,15 @@
 [![npm version][2]][3] 
 [![downloads][8]][9] [![js-standard-style][10]][11]
 
-Blake object hash.
+Hash a cyclical object deterministically using blake2b.
+
+## Why?
+There are so many of these, so why yet another object hashing library? I found all the other options lacking in one or another way. They all failed in at least one of the following ways:
+1. Did not have a deterministic stringification step.
+2. Broke on cyclical references.
+3. Used an insecure hashing algorithm such as md5 or sha1 instead of blake2b. 
+4. Limited to Node.js
+5. Too hard to find on NPM.
 
 ## Usage
 ```js
