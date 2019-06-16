@@ -1,6 +1,6 @@
 {
   "name": "cyclical-object-hash",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Deterministically hash a cyclical object with blake2b",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "test": "standard && npm run deps && NODE_ENV=test node test",
     "test:cov": "standard && npm run deps && NODE_ENV=test istanbul cover test.js"
   },
-  "repository": "jdvorak/object-hash",
+  "repository": "jdvorak/cyclical-object-hash",
   "keywords": [
     "hash",
     "blake",
